@@ -39,5 +39,10 @@ def factorial(n):
         return n * factorial(n-1)
 
 
-def reversed_string(string):
-    return ''.join(reversed(string))
+def reversed_string(a_string):
+    new_strings = []
+    index = len(a_string)
+    while index:
+        index -= 1
+        new_strings.append(a_string[index])
+    return ''.join(new_strings)
