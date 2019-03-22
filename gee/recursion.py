@@ -39,8 +39,8 @@ def factorial(n):
         return n * factorial(n-1)
 
 
-def reversed_string(word):
+def reverse(word):
     if len(word) <= 1:
         return word
     else:
-        return word[-1] + reversed_string(word[:-1])
+        return word[-1] + reverse(word[:-1])
