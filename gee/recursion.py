@@ -39,5 +39,5 @@ def factorial(n):
         return n * factorial(n-1)
 
 
-        def reversed_string(word):
+def reversed_string(word):
     return word[::-1]
