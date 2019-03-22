@@ -41,8 +41,8 @@ def merge_sort(items):
 
 
 
-    def quick_sort(items, index=-1):
-    """
+def quick_sort(items, index=-1):
+    '''
     the quick sort algorithm takes in an unsorted list of numbers.
     returns a list in ascending order.
 
@@ -58,7 +58,7 @@ def merge_sort(items):
     -------
     list
         list of elements in items in ascending order
-    """
+    '''
     len_i = len(items)
 
     if len_i <= 1:
